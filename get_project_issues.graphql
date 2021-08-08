@@ -1,0 +1,40 @@
+{
+    project(fullPath: "baneeishaque/medical-erp-j2se") {
+        webUrl,
+        issues(state: opened, iid: "13") {
+            nodes {
+                title
+                iid
+                createdAt
+                author {
+                    name
+                }
+                labels {
+                    nodes {
+                        color
+                        title
+                    }
+                }
+                assignees {
+                    nodes {
+                        name
+                    }
+                }
+                discussions {
+                    nodes {
+                        createdAt
+                        notes {
+                            nodes {
+                                author {
+                                    name
+                                }
+                                body
+                            }
+                        }
+                    }
+                }
+                updatedAt
+            }
+        }
+    }
+}
